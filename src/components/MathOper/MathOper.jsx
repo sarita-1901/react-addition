@@ -17,7 +17,7 @@ const MathOper = props => {
   };
 
   const [operData, setOperData] = useState([{}]);
-  const [operandlast, setOperandlast] = useState(0);
+ // const [operandlast, setOperandlast] = useState(0);
   const [showOutput,setShowOutput]=useState(false);
   const [output,setOutput]=useState(0);
 
@@ -34,7 +34,7 @@ const MathOper = props => {
 
   const onSubmit = data => {
    // console.log(data);
-    var operandsArr = [];
+   // var operandsArr = [];
     var operandsArr = data.operData.map((oper) => {
       return oper['operand'];
     });
@@ -56,11 +56,12 @@ const MathOper = props => {
   };
 
 
-
+/*
   const addOper = async () => {
     setOperData([...operData, defaultValue]);
   };
-
+*/
+/*
   const removeOper = index => () => {
     // get values
    // const { operData } = getValues({ nest: true });
@@ -79,7 +80,7 @@ const MathOper = props => {
       setValue(`operData[${i}].operator`, newOperData[i].operator);
     }
   };
-
+*/
   const clearOperData = (e) => {
     setOperData([0]);
     setValue(`operData[0].operand`, '');
