@@ -1,7 +1,7 @@
 import React from 'react';
 import "./App.scss";
 import MathOper from './components/MathOper/MathOper';
-import { useState } from "react";
+
 
 const App = () => {
 /*  const [user, setUser] = useState({

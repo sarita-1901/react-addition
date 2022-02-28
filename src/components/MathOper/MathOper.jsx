@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState } from "react";
-import ReactDOM from "react-dom";
+
 import { useForm } from "react-hook-form";
 import "./MathOper.scss";
 import configdata from "../../assets/data/configdata"
@@ -26,7 +26,7 @@ const MathOper = props => {
      formState: { errors },
     handleSubmit,
     setValue,
-    getValues,
+ //   getValues,
    
   } = useForm();
 

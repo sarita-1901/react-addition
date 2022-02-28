@@ -17,7 +17,7 @@ jobs:
       - run: npm ci
       - run: npm test -- --coverage
         env: 
-          CI: true
+          CI: false
       - name: Build Project
         if: github.event_name == 'push'
         run: npm run build
