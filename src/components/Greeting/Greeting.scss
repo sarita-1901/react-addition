@@ -1,0 +1,17 @@
+.greeting
+{
+  margin: 50px;
+  margin-bottom: 20px;
+
+  &__img
+{
+  height: 70px;
+  width: 70px;
+
+}
+
+&__heading
+{
+  font-size: 20px;
+}
+}

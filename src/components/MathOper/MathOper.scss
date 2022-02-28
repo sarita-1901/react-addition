@@ -1,0 +1,113 @@
+
+.form
+{
+  margin: 0px;
+padding: 0px;
+  margin-left: 50px;
+  margin-right: 50px;
+  
+  &__body
+  {
+    border: 0px solid black;
+  }
+
+  &__heading
+  {
+    background-color: #109d58;
+    font-size: 25px;
+    color: #fbfffe;
+    padding: 15px;
+  }
+
+  &__label
+  {
+    font-size: 16px;
+    color: #646363;
+  }
+
+  &__labellast
+  {
+    font-size: 16px;
+    color: #646363;
+    margin-left: 30px;
+    margin-top: 180px;
+  }
+
+  &__input {
+    outline: 0;
+    border-width: 0 0 2px;
+    border-color: black;
+    margin-left: 40px;
+    font-size: 16px;
+  }
+  &__input:focus {
+    border-color: #109d58;
+  }
+
+  &__operator
+{
+  padding: 0px;
+  margin: 0px;
+  background-color: #109d58;
+  color: white;
+  outline: 0;
+  border-width: 0px 0px 0px;
+  border-color: #109d58;
+  font-size: 25px;
+  border-radius: 20%;
+  width: 20px;
+  padding: 3px;
+  padding-right: 0px;
+  margin-left: 95px;
+
+
+}
+}
+
+.fieldset
+{
+  border: none;
+  margin: 20px;
+}
+
+.action
+{
+  margin: 50px;
+  &__button
+  {
+    font-size: 12px;
+    padding: 15px;
+    background-color: #c2c0c0;
+    border: none;
+    margin-left: 100px;
+    
+    color: #353434;
+    font-weight: bold;
+  }
+}
+
+
+.rowbutton
+{
+  margin: 10px;
+  margin-left: 40px;
+padding: 10px;
+color: #353434;
+background-color:     #d8d7d7;
+border-radius: 5px;
+;
+}
+
+.answer
+{
+  font-weight: bold;
+  color: #4e4c4c;
+  margin-bottom: 100px;
+}
+
+.errormessage
+{
+  color: red;
+  font-size: 16px;
+  padding-left: 20px;
+}
