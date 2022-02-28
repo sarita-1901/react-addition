@@ -11,11 +11,11 @@ const MathOper = props => {
 
   const { title } = props;
 
-  const defaultValue = {
+/*  const defaultValue = {
     operand: 0,
     operator: "+"
   };
-
+*/
   const [operData, setOperData] = useState([{}]);
  // const [operandlast, setOperandlast] = useState(0);
   const [showOutput,setShowOutput]=useState(false);
